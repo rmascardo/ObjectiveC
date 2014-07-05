@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "MyMath.h"
 
 @interface ViewController ()
 
@@ -31,6 +32,11 @@
 
 - (IBAction)HitButton1:(id)sender {
     NSLog(@"Hit the button");
+    
+    MyMath* myMath;
+    
+    myMath = [[MyMath alloc] init];
+    [myMath hackSomeMath];
 
 }
 

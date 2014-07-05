@@ -22,6 +22,7 @@
 		8101E52C1966783C00E5720F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8101E50B1966783C00E5720F /* UIKit.framework */; };
 		8101E5341966783C00E5720F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8101E5321966783C00E5720F /* InfoPlist.strings */; };
 		8101E5361966783C00E5720F /* ObjectiveCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8101E5351966783C00E5720F /* ObjectiveCTests.m */; };
+		8101E5411967C7F100E5720F /* MyMath.m in Sources */ = {isa = PBXBuildFile; fileRef = 8101E5401967C7F100E5720F /* MyMath.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,8 @@
 		8101E5311966783C00E5720F /* ObjectiveCTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ObjectiveCTests-Info.plist"; sourceTree = "<group>"; };
 		8101E5331966783C00E5720F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8101E5351966783C00E5720F /* ObjectiveCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjectiveCTests.m; sourceTree = "<group>"; };
+		8101E53F1967C7F100E5720F /* MyMath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MyMath.h; path = Hacking/MyMath.h; sourceTree = "<group>"; };
+		8101E5401967C7F100E5720F /* MyMath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MyMath.m; path = Hacking/MyMath.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +123,8 @@
 				8101E51C1966783C00E5720F /* Main_iPad.storyboard */,
 				8101E51F1966783C00E5720F /* ViewController.h */,
 				8101E5201966783C00E5720F /* ViewController.m */,
+				8101E53F1967C7F100E5720F /* MyMath.h */,
+				8101E5401967C7F100E5720F /* MyMath.m */,
 				8101E5221966783C00E5720F /* Images.xcassets */,
 				8101E50E1966783C00E5720F /* Supporting Files */,
 			);
@@ -256,6 +261,7 @@
 				8101E5211966783C00E5720F /* ViewController.m in Sources */,
 				8101E5181966783C00E5720F /* AppDelegate.m in Sources */,
 				8101E5141966783C00E5720F /* main.m in Sources */,
+				8101E5411967C7F100E5720F /* MyMath.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

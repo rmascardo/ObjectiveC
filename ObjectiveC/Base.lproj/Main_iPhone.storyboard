@@ -17,9 +17,9 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ois-ht-OMv">
-                                <rect key="frame" x="20" y="93" width="55" height="30"/>
+                                <rect key="frame" x="20" y="93" width="119" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button1"/>
+                                <state key="normal" title="Hack Some Math"/>
                                 <connections>
                                     <action selector="HitButton1:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="kw8-kp-3Vm"/>
                                 </connections>
