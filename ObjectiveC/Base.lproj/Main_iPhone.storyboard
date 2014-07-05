@@ -30,11 +30,17 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xnZ-KN-xQw">
+                                <rect key="frame" x="20" y="221" width="240" height="290"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </webView>
                         </subviews>
                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <connections>
                         <outlet property="Button1" destination="Ois-ht-OMv" id="fbm-xj-qxg"/>
+                        <outlet property="MyWebView" destination="xnZ-KN-xQw" id="MYs-pK-qRU"/>
                         <outlet property="TopLabel" destination="dgt-wy-s8f" id="SJg-WD-sRG"/>
                     </connections>
                 </viewController>

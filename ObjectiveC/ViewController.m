@@ -20,8 +20,15 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
     
-    self.TopLabel.text = @"View Controller Completed Load"; 
+    //Hacking at manipulating components in the view
+    self.TopLabel.text = @"View Controller Completed Load";
     
+    //Hacking on the UIWebView component
+    NSString *urlAddress = @"http://www.apple.com";
+    NSURL *url = [NSURL URLWithString:urlAddress];
+    NSURLRequest *requestObj = [NSURLRequest requestWithURL:url];
+    [self.MyWebView loadRequest:requestObj];
+
 }
 
 - (void)didReceiveMemoryWarning
@@ -39,5 +46,7 @@
     [myMath hackSomeMath];
 
 }
+
+
 
 @end
